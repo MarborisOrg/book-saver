@@ -6,3 +6,4 @@ log/
 **/*.csr
 **/*.crt
 **/*.bak
+archive/

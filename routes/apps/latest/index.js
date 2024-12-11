@@ -1,0 +1,16 @@
+import { Router } from 'express';
+import { deleteBookController, dropBookController, getAllController, getBookController, saveBookController, } from './controllers/index.js';
+import { tokenController } from './controllers/token.js';
+import { loginController } from '#apps/server/routes/apps/latest/controllers/admin/login';
+import checkAdmin from '#apps/server/routes/apps/latest/middleware/checkAdmin';
+import { checkIP } from '#apps/server/routes/apps/latest/middleware/cons';
+const router = Router();
+router.use(checkIP);
+router.post('/login', loginController);
+router.get('/get', checkAdmin, getBookController);
+router.post('/save', checkAdmin, saveBookController);
+router.post('/drop', checkAdmin, dropBookController);
+router.post('/delete', checkAdmin, deleteBookController);
+router.post('/getall', checkAdmin, getAllController);
+router.post('/token', tokenController);
+export default router;

@@ -1,0 +1,8 @@
+node_modules/
+*lock*
+log/
+
+**/*.key
+**/*.csr
+**/*.crt
+**/*.bak

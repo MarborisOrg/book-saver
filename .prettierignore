@@ -1,0 +1,21 @@
+diff
+.idea/*
+.nyc_output
+dist
+node_modules
+
+**/*.log
+**/*.bak
+
+**/*.key
+**/*.csr
+**/*.crt
+public
+
+.env*
+
+yarn.lock
+package-lock.json
+
+# package.json is formatted by package managers, so we ignore it here
+package.json

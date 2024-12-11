@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "eamodio.gitlens",
+    "streetsidesoftware.code-spell-checker",
+    "donjayamanne.githistory",
+    "vscode-icons-team.vscode-icons",
+    "editorconfig.editorconfig",
+    "ms-vscode.vscode-typescript-next",
+    "dbaeumer.vscode-eslint"
+  ]
+}

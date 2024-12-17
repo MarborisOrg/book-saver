@@ -56,7 +56,7 @@
     "typeRoots": ["node_modules/@types"],
     "skipLibCheck": true
   },
-  "include": ["src/**/*.ts", "archive/ts/server.ts"],
+  "include": ["src/**/*.ts"],
   "exclude": ["node_modules/**", "dist/**", "log/**", "doc/**", "src/databases/**", "archive/**"],
   "compileOnSave": false
 }

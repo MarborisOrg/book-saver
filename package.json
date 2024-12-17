@@ -13,7 +13,7 @@
     "#*": "./dist/*.js"
   },
   "dependencies": {
-    "@marboris/coreutils": "^2.8.2",
+    "@marboris/coreutils": "^2.8.11",
     "express": "^4.21.1",
     "joi": "^17.13.3",
     "jsonwebtoken": "^9.0.2"

@@ -5,7 +5,7 @@
     "outDir": "dist",
     "rootDir": "src",
     "moduleResolution": "node",
-    "module": "CommonJS",
+    "module": "es2022",
     "baseUrl": "./",
     "paths": {
       "#*": ["src/*"]

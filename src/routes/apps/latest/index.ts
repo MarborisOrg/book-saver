@@ -11,11 +11,8 @@ import { tokenController } from './controllers/token.js'
 
 import { loginController } from '#routes/apps/latest/controllers/admin/login.js'
 import checkAdmin from '#routes/apps/latest/middleware/checkAdmin.js'
-import { checkIP } from '#routes/apps/latest/middleware/cons.js'
 
 const router = Router()
-
-router.use(checkIP)
 
 /**
  * @swagger
